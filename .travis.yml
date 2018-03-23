@@ -7,5 +7,6 @@ go:
   - "1.10"
   - master
 
+# just use go test
 script:
   - go test -race -cover
